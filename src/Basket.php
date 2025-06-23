@@ -35,46 +35,6 @@ class Basket
         $this->offers = $offers;
     }
 
-    public function getProductCatalogue(): array
-    {
-        return $this->productCatalogue;
-    }
-
-    public function setProductCatalogue(array $productCatalogue): void
-    {
-        $this->productCatalogue = $productCatalogue;
-    }
-
-    public function getDeliveryChargeRules(): array
-    {
-        return $this->deliveryChargeRules;
-    }
-
-    public function setDeliveryChargeRules(array $deliveryChargeRules): void
-    {
-        $this->deliveryChargeRules = $deliveryChargeRules;
-    }
-
-    public function getOffers(): array
-    {
-        return $this->offers;
-    }
-
-    public function setOffers(array $offers): void
-    {
-        $this->offers = $offers;
-    }
-
-    public function getItems(): array
-    {
-        return $this->items;
-    }
-
-    public function setItems(array $items): void
-    {
-        $this->items = $items;
-    }
-
     /**
      * @param string $productCode
      * @return void
@@ -121,6 +81,46 @@ class Basket
             }
         }
         return $total;
+    }
+
+    public function getProductCatalogue(): array
+    {
+        return $this->productCatalogue;
+    }
+
+    public function setProductCatalogue(array $productCatalogue): void
+    {
+        $this->productCatalogue = $productCatalogue;
+    }
+
+    public function getDeliveryChargeRules(): array
+    {
+        return $this->deliveryChargeRules;
+    }
+
+    public function setDeliveryChargeRules(array $deliveryChargeRules): void
+    {
+        $this->deliveryChargeRules = $deliveryChargeRules;
+    }
+
+    public function getOffers(): array
+    {
+        return $this->offers;
+    }
+
+    public function setOffers(array $offers): void
+    {
+        $this->offers = $offers;
+    }
+
+    public function getItems(): array
+    {
+        return $this->items;
+    }
+
+    public function setItems(array $items): void
+    {
+        $this->items = $items;
     }
 
     /**
