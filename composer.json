@@ -1,0 +1,22 @@
+{
+    "name": "mario/acme-widget",
+    "description": "This package implements a basket that handles adding products and calculating the total cost of the basket.",
+    "autoload": {
+        "psr-4": {
+            "Mario\\AcmeWidget\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "mario"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "*",
+        "phpstan/phpstan": "^2.1"
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit tests/ --testdox"
+    }
+}
