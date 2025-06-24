@@ -17,6 +17,7 @@
         "phpstan/phpstan": "^2.1"
     },
     "scripts": {
-        "test": "./vendor/bin/phpunit tests/ --testdox"
+        "test": "./vendor/bin/phpunit tests/ --testdox",
+        "analysis": "./vendor/bin/phpstan analyse src tests --level=5"
     }
 }
